@@ -1,5 +1,5 @@
 # Builder stage
-FROM rust:1.84-slim AS builder
+FROM rust:1.86 as builder
 
 # Install build dependencies
 RUN apt-get update && \
